@@ -11,12 +11,12 @@ public class HelloWorldController {
 
     @RequestMapping({"/hello"})
     public String firstPage(){
-        return "Hello World...!";
+        return "Hello World ...x1!";
     }
 
     @RequestMapping({"/helloNotSecurity"})
     public String firstPagePrima(){
-        return "Hello World...!";
+        return "Hello World...x2!";
     }
 
 }
